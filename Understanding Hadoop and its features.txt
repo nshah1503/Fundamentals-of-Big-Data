@@ -1,0 +1,38 @@
+Hadoop is an open source framework from Apache and is used to store process and analyze data which are very huge in volume. 
+Hadoop is writte in Java. It is used for offline processing. It is being used by Facebook, Yahoo, Google, Twitter, Linkedin and 
+many more
+
+Modules of Hadoop
+1. HDFS - Hadoop distributed File system
+2. Yarn - Yet Another Resource Negotiator
+3. Map Reduce
+4. Hadoop Common - Java Libraries.
+
+### Features of Hadoop
+
+1. Open Source : - Java based programming framework. Open source which means anyone can change the source code
+2. Fault Tolerance : - 
+
+Hadoop control faults by the process of replica creation. When client stores a file in HDFS, Hadoop framework divide the file 
+into blocks. Then client distributes data blocks across different machines present in HDFS cluster.
+
+And, then create the replica of each block is on other machines present in the cluster. HDFS, by default, creates 3 copies of a 
+block on other machines present in the cluster.
+
+If any machine in the cluster goes down or fails due to unfavorable conditions. Then also, the user can easily access that data 
+from other machines.
+
+1. Distributed Processing : - Hadoop stores huge amount of data in a distributed manner in HDFS. Process the data in parallel on a 
+	cluster of nodes.
+2. Scalability : - Hadoop is an open-source platform. This makes it extremely scalable platform. So, new nodes can be easily 
+	added without any downtime. Hadoop provides horizontal scalability so new node added on the fly model to the system.
+3. Reliability : - Data is reliably stored on the cluster of machines despite machine failure due to replication of data. 
+	So, if any of the nodes fails, then also we can store data reliably.
+4. Availability : - Due to multiple copies of data, data is highly available and accessible despite hardware failure. 
+	So, any machine goes down data can be retrieved from the other path. Learn Hadoop High Availability feature in detail.
+5. Flexibility : - Hadoop is very flexible in terms of ability to deal with all kinds of data. It deals with structured, 
+	semi-structured or unstructured.
+6. Economic : - Hadoop is not very expensive as it runs on the cluster of commodity hardware. As we are using low-cost 
+	commodity hardware, we don’t need to spend a huge amount of money for scaling out your Hadoop cluster.
+7. Easy to use : - No need of client to deal with distributed computing, the framework takes care of all the things. 
+	So it is easy to use.
